@@ -1,19 +1,27 @@
-# React + Vite
+# Movie App — React + Redux Toolkit + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page Movie & TV browsing app built with React 19, Redux Toolkit, and Vite. 
 
-Currently, two official plugins are available:
+This app showcases a curated list of movies and TV shows, allowing users to:
+- Browse movies and TV shows in a clean, responsive grid layout.
+- Filter content by type (Movies or TV Shows).
+- View detailed information about each item (title, year, rating, genres, description, trailer link).
+- Manage favorite items using Redux Toolkit.
+- Enjoy fast performance thanks to Vite and React's Virtual DOM optimizations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Features
+- **React 19 & Vite**: modern, fast frontend setup.
+- **Redux Toolkit**: simple yet scalable state management.
+- **React Router v7**: seamless navigation between pages.
+- **FontAwesome Icons**: visually appealing icons for ratings and actions.
+- **Responsive UI**: works on mobile and desktop.
+- **Extensible Data Model**: ready to integrate with external APIs like TMDB.
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tech Stack
+- React 19
+- Redux Toolkit
+- React Router DOM v7
+- Vite (with @vitejs/plugin-react)
+- ESLint & plugins
+- FontAwesome React components
 you can find the preview video of the project on : (https://drive.google.com/file/d/1GSQTobdv_dDcnmzXNn7gWrpBiCEY2JAZ/view?usp=drive_link)
