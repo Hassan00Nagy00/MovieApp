@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  background: #0f1113;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #e6eef3;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: #ccc;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.registerLink {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cartIcon {
+  position: relative;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cartCount {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: crimson;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  line-height: 1;
+}

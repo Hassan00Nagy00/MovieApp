@@ -1,0 +1,35 @@
+:root {
+  --bg: #0b0b0d;
+  --card: #111217;
+  --muted: #9aa3ad;
+  --accent: #00d8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: #fff;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: min(1200px, 95%);
+  margin: 28px auto;
+  padding: 0 16px;
+  flex: 1;
+  box-sizing: border-box;
+}
